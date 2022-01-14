@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.main {
+    background: url(../img/register/bg_contact.jpg) center / cover no-repeat;
+    padding: 7rem;
+    width: 100%;
+  }
+  
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+.heading {
+  background-color: white;
+  color: #e53328;
+  font-size: 60px;
+  font-weight: bold;
+  width: 360px;
+  border-radius: 10px;
+  padding: 15px;
+
+}
+  
+.main__container {
+   display: flex;
+   margin: 30px auto;
+}
+.left{
+  margin-right: 25px;
+  background-color: #ffe9da;
+  width: 23%;
+  height: 260px;
+  padding: 10px 10px 0px 16px;
+}
+.left .title{
+  color: #3c3b39;
+  font-size: 22px;
+}
+.left .message{
+  color: #984d17;
+  font-size: 13px;
+  padding: 10px 0px;
+  word-spacing: 1px;
+}
+.right{
+  background-color: #ffe9da;
+  width: 60%;
+  padding: 20px;
+  height: auto;
+
+}
+/**/
+
+
+input[type=text]{
+  width: 415px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.selection-branch{
+  position: relative;
+  height: 40px;
+  margin-bottom: 15px;
+  overflow: hidden;
+
+}
+
+.dropdown_branch{
+  width: 420px;
+    height: 26px;
+    position: absolute;
+    top: -2px;
+    padding: 0;
+    opacity: 0;
+    cursor: pointer;
+
+}
+.icon-selector-branch{
+  width: 30px;
+  
+    position: absolute;
+    top: -3px;
+    right: 300px;
+    font-size: 35px;
+    color: #eb6c1d;
+}
+.chu{
+  color: #883a04;
+  
+}
+.button{
+margin-top: 20px;
+}
+.button--orange{
+  background-color: #f6741e;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button--orange a{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+

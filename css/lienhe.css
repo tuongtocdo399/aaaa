@@ -1,0 +1,116 @@
+#main{
+    background-image: url(../img/contact/bg_contact.jpg);
+    background-size: 100% 100%;
+    z-index: 2;
+    min-height: 521px;
+    margin: 0 auto !important;
+    padding: 90px 110px !important;
+}
+#body_content{
+    padding: 130px 150px 30px 180px;
+}              
+#body_content .page_title{
+    background-color: white;
+    color: #e53328;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+    width: 360px;
+    padding-left: 15px;
+    border-radius: 7px;
+}      
+#main_contact{
+    display: flex;
+    margin: 30px auto;
+
+}   
+#content_left{
+    background-color: #ffe9da;
+    width: 30%;
+    height: 260px;
+    margin-right: 20px;
+    padding: 10px 10px 0px 16px;
+
+}
+#margintest{
+    color: #3c3b39;
+    font-size: 22px;
+
+}
+.pfontsizeleft{
+    color: #984d17;
+    font-size: 13px;
+    text-align: justify;
+    padding: 10px 0px;
+}
+#content_right{
+    background-color: #ffe9da;
+    width: 60%;
+    height: auto;
+
+}
+.form-contact{
+    width: 70%;
+    padding: 20px;
+
+}
+#main_contact input[type=text]{
+    width: 415px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   position: relative;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 16px 0px;
+    
+}
+.selection-checkout{
+    position: relative;
+  
+    width: 420px;
+}
+.content-input-select-checkout{
+    display: flex;
+
+}
+.icon-selector-checkout{
+font-size: 34px;
+position: absolute;
+top: 8px;
+left: 394px;
+cursor: pointer;
+color: #eb6c1d;
+
+}
+.dropdown_checkout{
+    top: 8px;
+    width: 420px;
+    height: 26px;
+    opacity: 0.2;
+    
+    position: absolute;
+    opacity: 1;
+    cursor: pointer;
+}
+.inf-msg textarea{
+    height: 120px;
+    width: 420px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.inf-submit{
+    margin-top: 20px;
+}
+.btn_place_order{
+   background-color: #f6741e;
+   border: none;
+   border-radius: 10px;
+   width: 100px;
+   height: 35px;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer; 
+}

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toán</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/ft.css">
+    <link rel="stylesheet" href="css/thanhtoan.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="header">
+        <!-- khối chưa logo -->
+        <div id="logo">
+         <img src="img/header/logo.png" alt="">
+        </div>
+        <!-- phần liên kết , menu , tìm kiếm -->
+        <div class="header-top">
+            <div id="searchform" class="clearfix">
+                <div class="item" id="register">
+                 <a style="color:white;" href="#">Đăng nhập/ đăng ký</a>
+                      
+                </div>
+                <!-- khung nhập nội dung tìm kiếm -->
+                <div class="item">
+                   <input class="search_textbox" type="text" value="Search">
+                   <div class="search_button">
+                      <a href="#"><img src="img/header/searchbtn.png" alt=""></a>
+                   </div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div id="menu" class="clearfix">
+                     <ul>
+                           <li><a href="header_footer.html">trang chủ</a></li>
+                           <li><a href="online.html">đặt hàng online  </a></li>
+                           <li><a href="menu.html">menu</a></li>
+                           <li><a  href="#">Giới thiệu</a></li>
+                           <li><a href="lienhe.html">Liên hệ</a></li>
+                           <li><a href="#">Tuyển dụng</a></li>
+                           <li class="cartimg"><a href="gio_hang.html"><img src="img/header/cart.png" alt=""></a></li>
+                     </ul>
+            </div>
+            <!-- ngôn ngữ hiển thị -->
+            <div id="flag">
+                <a href="#"><img src="img/header/vi.png" alt="vn" title="Vietnamese"></a>
+                <a href="#"><img src="img/header/uk.png" alt="uk" title="English"></a>
+                <a href="#"><img src="img/header/kor.png" alt="kor" title="Korean"></a>
+                <a href="#"><img src="img/header/ja.png" alt="jp" title="Japan"></a>
+          
+          
+           </div>
+        </div>
+        
+    </section>
+    <!--main-->     <!--main-->     <!--main-->     <!--main-->     <!--main-->   
+    <section id="main">
+        <div id="body_content">
+            <div class="content-title">
+                <h2 class="page_title">Thanh toán</h2>
+
+             </div>
+
+            <div id="main_checkout">
+
+                <div id="left-info-checkout">
+                    <div class="round_circle_checkout"> 
+                        <div class="circle">
+                            <span>1</span>
+                        </div>
+                        <div class="text_title_checkout">
+                            <span>Billing & Shipping</span>
+                        </div>
+
+                    </div>
+                    <div id="content_register">
+                        <div id="login_form_checkout">
+                            <div class="label_billing_center">
+                                <a id="user_account_checkout" href="registration.html">Already have an account ?</a>
+                             </div>
+                             <div>
+                                <button class="btn_login"><a href="login.html"> Login</a></button>
+                             </div>
+                             <hr color="#f77a2b" style="margin: 20px 0px 20px 0px; " width="100%">
+                        </div>
+
+                        <div id="new_info_customer">
+
+                            <div class="info_customer">
+                                <ul class="sub_left_checkout">
+                                    <li>
+                                         <span class="checkout_detail_infor">First Name (*)</span> <br>
+                                         <input type="text" name="txt_firstname_checkout" class="input_checkout_short" value="">
+                                    </li>
+                                    <li>
+                                         <span class="checkout_detail_infor">Last Name (*)</span> <br>
+                                         <input type="text" value="" name="txt_last_checkout" class="input_checkout_short">
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="info_customer">
+                                <span class="checkout_detail_infor">Email Address (*)</span> <br>
+                                <input type="text" name="email_address" class="input_checkout_long">
+                             </div>
+
+                             <div class="info_customer">
+                                <span class="checkout_detail_infor">Mobile Phone (*)</span> <br>
+                                <input type="text" name="txt_telephone" class="input_checkout_long">
+                             </div>
+
+                            <div class="info_customer">
+                                <span class="checkout_detail_infor">Mobile Phone (*)</span> <br>
+                                <input type="text" name="txt_telephone" class="input_checkout_long">
+                            </div>
+
+                            <div class="info_customer">
+                                <span class="checkout_detail_infor">City</span> <br>
+                                <div class="selection-checkout">
+                                   <div class="content-input-select-checkout">
+                                       <input type="text" value="---------Ho Chi Minh--------" class="div-input-checkout">
+                                       <a class="icon-selector-checkout"><i class="fas fa-caret-square-down"></i></a>
+                                                                      
+                                   </div>
+                                   <select class="dropdown_checkout">
+                                       <option value="volvo">Ben Tre</option>
+                                       <option value="saab">Da Nang</option>
+                                       <option value="mercedes">Can Tho</option>
+                                       <option value="audi">Binh Dinh</option>
+                                       <option value="audi">An Giang</option>
+                                   </select>
+                                </div>
+                             </div>
+
+                             <div class="info_customer">
+                                <span class="checkout_detail_infor">District</span> <br>
+                                <div class="selection-checkout">
+                                   <div class="content-input-select-checkout">
+                                       <input type="text" value="----Please Choose--- ----"class="div-input-checkout">
+                                      <a class="icon-selector-checkout"><i class="fas fa-caret-square-down"></i></a>
+                                                                   
+                                   </div>
+                                   <select class="dropdown_checkout">
+                                       <option value="volvo">Q.1</option>
+                                       <option value="saab">Q.2</option>
+                                       <option value="mercedes">Q.3</option>
+                                       <option value="audi">Q.4</option>
+                                       <option value="audi">Q.Go Vap</option>
+                                       <option value="audi">Q.9</option>
+                                   </select>
+                                </div>
+                             </div>
+
+                             <div class="info_customer">
+                                <span class="checkout_detail_infor">Address (*)</span> <br>
+                                <input type="text" name="txt_address" class="input_checkout_long">
+                             </div>
+
+                             <div class="info_customer">
+                                <div class="label_billing_center">
+                                   <label>Create an account</label>
+                                </div>
+                             </div>
+                             <div class="info_customer">
+                                <ul class="sub_left_checkout">
+                                   <li>
+                                       <span class="checkout_detail_infor">Password (*)</span> <br>
+                                       <input type="password" name="txt_password" class="input_checkout_short" value="">
+                                   </li>
+                                   <li>
+                                       <span class="checkout_detail_infor">Confirm Password (*)</span> <br>
+                                       <input type="password" value="" name="txt_repassword" class="input_checkout_short">
+                                   </li>
+                                </ul>
+                             </div>
+
+
+                             <div class="info_customer">
+                                <input type="checkbox" name="sign_ship" value="sign_newsletter" checked="checked">
+                                <span class="checkout_detail_infor">Sign Up for Newsletter</span>
+                            </div>
+                            <div class="info_customer">
+                                <input type="checkbox" name="sign_ship" value="ship_address">
+                                <span class="checkout_detail_infor">Ship to different Address</span>
+                            </div>
+
+
+
+
+
+                            
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="right-info">
+
+
+                    <div id="combine_part2_3">
+                        <div id="second_part" class="Shipping_Method"> 
+                            <div class="round_circle_checkout">
+                                <div class="circle">
+                                   <span>2</span>
+                                </div>
+                                <div class="text_title_checkout">
+                                   <span>Shipping Method</span>
+                                </div>
+                             </div>
+                             <div id="content_second_part">
+                                <div class="sub_left_radio">
+                                   <input type="radio" name="ship_method" value="free_ship" checked="checked">
+                                   <span class="checkout_detail_infor">Free Ship</span>
+                                </div>
+                                <div class="sub_left_radio">
+                                   <input type="radio" name="ship_method" value="take_out">
+                                   <span class="checkout_detail_infor">Take Away</span>
+                                </div>
+                             </div>
+
+                        </div>
+                        <div id="third_part" class="Payment_Method">
+
+                            <div class="round_circle_checkout">
+                                <div class="circle">
+                                    <span>3</span>
+                                </div>
+                                <div class="text_title_checkout">
+                                    <span>Payment Method</span>
+                                </div>
+                            </div>
+                            <div id="content_third_part">
+                                <div class="sub_third_content">
+                                   <input type="radio" checked="checked">
+                                   <span class="checkout_detail_infor">Cash / Delivery</span>
+                                </div>
+                                <div class="code_discount">
+                                   <div class="group-code-checkout">
+                                       <div class="title_text_input_checkout">
+                                          <span class="checkout_detail_infor">Discount Code</span>
+                                       </div>
+                                       <div class="method_checkout">
+                                          <input type="text" class="input_checkout_long_payment payment_input_checkout">
+                                          <button class="btn_payment">SUBMIT</button>
+                                       </div>
+                                   </div>
+                                   <div class="group-code-checkout">
+                                       <div class="title_text_input_checkout">
+                                          <span class="checkout_detail_infor">Gift Card</span>
+                                       </div>
+                                       <div class="method_checkout">
+                                          <input type="text" class="input_checkout_long payment payment_input_checkout">
+                                          <button class="btn_payment">SUBMIT</button>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="fourth_part">
+                        <div class="round_circle_checkout Checkout_Review">
+                            <div class="circle">
+                                <span>4</span>
+                            </div>
+                            <div class="text_title_checkout">
+                                <span>Checkout Review</span>
+                            </div>
+
+                        </div>
+                        <div class="content_fourth_part proceed_checkout">
+                            <div class="content_table">
+                                <table class="shopping_cart_detail" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr class="th">
+                                            <th width="65%" align="left">PRODUCT NAME</th>
+                                            <th width="15%" align="center">PRICE</th>
+                                            <th width="5%" align="center">QTY</th>
+                                            <th width="15%" align="center">SUBTOTAL</th>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <a href="#" class="food_order">apple, mint, celery + lime juice </a>
+                                            </td>
+                                            <td align="center">175, 000 VND</td>
+                                            <td align="center">2</td>
+                                            <td align="right"><span>350, 000 VND</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <span class="extra_order">+Extra</span>
+                                            </td>
+                                            <td align="center"></td>
+                                            <td align="center"></td>
+                                            <td align="right"><span>25,000 VND</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <a href="#" class="food_order">bean and glass noodle salad</a>
+                                            </td>
+                                            <td align="right"></td>
+                                            <td align="center">1</td>
+                                            <td align="right"><span>225, 000 VND</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <div class="extra_order"></div>
+                                            </td>
+                                            <td align="center"></td>
+                                            <td align="center"></td>
+                                            <td align="right"></td>
+                                        </tr>
+                                        <tr class="line_null">
+                                            <td valign="top" align="right" colspan="4"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" align="right" class="sum_sum">Subtotal</td>
+                                            <td align="right"><span>600.000 VND</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" align="right" class="sum_sum">Voucher</td>
+                                            <td align="right"><span>-50.000 VND</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" align="right" class="sum_sum">Grand Total</td>
+                                            <td align="right"><span>550.000 VND</span></td>
+                                        </tr>
+                                        </tbody>
+
+
+                                </table>
+                             </div>
+                             <div id="end_checkout_content">
+                                <div class="left-revew">
+                                    <label class="checkout_detail_infor">Choose your favorite restaurants to serve</label>
+                                        <div class="selection-checkout">
+                                            <div class="content-input-select-checkout">
+                                                <input type="text" value="-----Any--" class="div-input-checkout">
+                                                <a class="icon-selector-checkout"><i class="fas fa-caret-square-down"></i></a>
+                                                                                            
+                                            </div>
+                                            <select class="dropdown_checkout">
+                                                <option value="volvo">Ben Tre</option>
+                                                <option value="saab">Da Nang</option>
+                                                <option value="mercedes">Can Tho</option>
+                                                <option value="audi">Binh Dinh</option>
+                                                <option value="audi">An Giang</option>
+                                            </select>
+                                        </div>
+                                        <div class="msg-commit">
+                                            <label class="checkout_detail_infor">Comments</label>
+                                            <textarea placeholder="Nhập nội dung..."></textarea>
+                                        </div>
+
+                                </div>
+                                <div class="right-review">
+                                    <div>
+                                        <input type="checkbox" name="term_condition">
+                                        <span class="checkout_detail_infor">I read and agree to <a href="">terms & condition</a></span>
+                                    </div>
+                                    <div class="checkout_right div-btn-order">
+                                        <button id="btn_place_order" class="btn_place_order">Place Order</button>
+                                    </div>
+
+
+                                </div>
+                             </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div><!--main_checkout-->
+
+         </div>
+     </section>
+
+
+
+
+
+
+
+
+    <!--main-->     <!--main-->     <!--main-->     <!--main-->   
+
+    <section id="footer">
+
+        <div class="leftfooter">
+           
+                <ul>
+                  <li class="item">@ The Al Fresco's Group 2019</li>
+                  <li class="item"><a class="icon_face" href="https://www.facebook.com"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                  <li class="item"><a class="icon_youtube" href="https://www.youtube.com"><i class="fa fa-youtube-square"></i></a></li>
+                  <li class="item"><a class="icon_app" href="https://www.apple.com/retail/"><i class="fab fa-app-store"></i></a></li>
+                  </ul>
+        </div>
+        <div class="rightfooter">
+            <ul>
+                <li><a href="#">sơ đồ site</a></li>
+                <li><a href="#">nhượng quyền</a></li>
+                <li><a href="#">chính sách bảo mật</a></li>
+                <li><a href="#">điều kiện sử dụng</a> </li>
+                <li><a href="#">head office</a></li>
+            </ul>
+        
+        </div>
+        </div>
+        
+        
+        
+            </section>
+    
+    
+</body>
+</html>
